@@ -1,0 +1,35 @@
+body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			
+		}
+
+.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20px;
+
+		}
+
+
+main {
+  position: relative;
+  height: 100vh; /* set the height to the full viewport height */
+}
+
+main img {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* use object-fit to scale the image to cover the entire element */
+  z-index: -1;
+  opacity: 0.95;
+}
+
+main section {
+  position:relative;
+  z-index: 1; /* set the z-index to a positive value to bring the text forward */
+}

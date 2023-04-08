@@ -1,0 +1,21 @@
+/* -
+ Global Styles 
+ - */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  background-color: white;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
