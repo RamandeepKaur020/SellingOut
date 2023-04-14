@@ -1,32 +1,10 @@
 /* -
- Global Styles 
- - */
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
-  color: #333;
-  background-color: black;
-}
-
-a {
-  color: unset;
-  text-decoration: none;
-}
-
-/* -
  Header Section 
  - */
 
 .announcement-bar {
   height: 30px;
-  background-color: #cf9c36;
+  background-color: #ac6e3b;
   text-align: center;
 }
 
@@ -90,7 +68,7 @@ a {
 }
 
 .header__menu-item a:hover{
-  color: #ffb347;
+  color: #ac6e3b;
 }
 
 /* -
@@ -100,8 +78,8 @@ a {
 .header__submenu {
   padding: 20px 50px;
   position: absolute;
-  top: 150%;
-  left: -45px;
+ 	top: 110%;
+  left: 130px;
   z-index: 999;
   background-color: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -134,7 +112,7 @@ a {
 }
 
 .header__submenu-item a:hover {
-  color: #ffb347;
+  color: #ac6e3b;
 }
 
 /* -
@@ -199,12 +177,12 @@ a {
 /* 
 Hero section
 */
-
+/*can add gradient to img linear-gradient(180deg, rgba(109, 83, 73, 0.756) -35.49%, rgba(139, 108, 98, 0.3) 124.72%),*/
 .hero {
-  background-image: url('/assets/bg1.jpg');
+  background-image: linear-gradient(180deg, rgba(109, 83, 73, 0.756) -35.49%, rgba(139, 108, 98, 0.3) 124.72%),url('/assets/1\ \(1\).jpeg');
   background-size: cover;
   background-position: center;
-  height: 1100px;
+  height: 110vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -226,7 +204,7 @@ Hero section
 }
 
 .hero__button {
-  background-color: #cf9c36;
+  background-color: #ac6e3b;
   color: #fff;
   font-size: 18px;
   font-weight: bold;
@@ -238,6 +216,32 @@ Hero section
 }
 
 .hero__button:hover {
-  background-color: #ffb347;
+  background-color: #c88146;
   cursor: pointer;
+}
+
+/* Footer Styles */
+.footer {
+  background-color:  rgb(138, 87, 53);
+  color: #fff;
+  padding: 9px;
+  text-align: center;
+ 	height: 100px;
+}
+
+.footer__content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer__title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.footer__text {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
 }

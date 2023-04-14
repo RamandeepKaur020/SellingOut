@@ -9,6 +9,8 @@
   <link href="/css/index.css" rel="stylesheet" type="text/css" />
 
   <link href="/css/contact.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
   <title>Brew Heaven - contact</title>
 
   <!--Icon: Favicon-->
@@ -36,7 +38,7 @@
         </li>
         <li class="header__menu-item"><a href="/pages/about.html" target="_self">About Us</a></li>
         <li class="header__menu-item"><a href="/pages/contact.html" target="_self">Contact Us</a></li>
-        <li class="header__menu-item"><a href="#">Reviews</a></li>
+        <li class="header__menu-item"><a href="reviews.html">Reviews</a></li>
         <li class="header__menu-item"><a href="#">Blog</a></li>
       </ul>
       <div class="header__options-on-right">
@@ -56,29 +58,34 @@
     </nav>
   </header>
   <!-- 	Nav-bar END -->
-  <main>
-    <!-- <img src="/assets/Review.jpg" alt="bg-img">-->
-    <section>
-      <h1>Write to Us</h1>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+  <div class="container">
+    <h2>Contact Us</h2>
+    
+    <form action="action_page.php">
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your preffered name..">
+      <br>
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <br>
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+        <option value="australia">Canada</option>
+        <option value="canada">Australia</option>
+        <option value="usa">USA</option>
+        <option value="india">India</option>
+        <option value="pakistan">Pakistan</option>
+        <option value="usa">China</option>
+      </select>
+      
+      <label for="subject">Subject:</label>
+      <textarea id="subject" name="subject" placeholder="Write your message.." style="height:200px"></textarea>
+      
+      <input type="submit" value="Submit">
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-
-        <button type="submit">Submit</button>
-      </form>
-    </section>
-  </main>
-
-  <footer>
-
-  </footer>
-
+    </form>
+  </div>
 
   <!--
   This script places a badge on your repl's full-browser view back to your repl's cover

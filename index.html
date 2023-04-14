@@ -6,76 +6,85 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<!-- Link to main stylesheet and general stylesheet -->
 	<link href="/css/index.css" rel="stylesheet" type="text/css" />
 	<link href="/css/general.css" rel="stylesheet" type="text/css" />
 
 	<title>Brew Heaven - Coffee Shop</title>
 
+	<!-- Add Favicon icon -->
 	<!--Icon: Favicon-->
+	<link rel="icon" type="image/png" href="assets/favicon.png">
+
 </head>
 
 <body>
 
-	<!-- 	Nav-bar START -->
+	<!-- Announcement bar -->
 	<div class="announcement-bar">
 		<p class="announcement-bar__text">SUBSCRIBE & SAVE 30% ON YOUR FIRST BAG</p>
 	</div>
+
+	<!-- Header and Navigation bar -->
 	<header class="header">
 		<nav class="header__nav">
 			<div class="header__logo">
 				<a href="index.html"><img src="/assets/logo-2.jpg" alt="Brew Heaven logo"></a>
 			</div>
+			<!-- Menu items -->
 			<ul class="header__menu">
 				<li class="header__menu-item">
 					<a href="pages/product.html">Products</a>
-					<ul class="header__submenu">
-						<li class="header__submenu-item"><a href="#">Subscription</a></li>
-						<li class="header__submenu-item"><a href="#">Accessories</a></li>
-						<li class="header__submenu-item"><a href="#">Special Blends</a></li>
-					</ul>
+					<!-- Sub-menu items 
+          <ul class="header__submenu">
+            <li class="header__submenu-item"><a href="#">Subscription</a></li>
+            <li class="header__submenu-item"><a href="#">Accessories</a></li>
+            <li class="header__submenu-item"><a href="#">Special Blends</a></li>
+          </ul>-->
 				</li>
 				<li class="header__menu-item"><a href="/pages/about.html" target="_self">About Us</a></li>
 				<li class="header__menu-item"><a href="/pages/contact.html" target="_self">Contact Us</a></li>
-				<li class="header__menu-item"><a href="#">Reviews</a></li>
+				<li class="header__menu-item"><a href="pages/reviews.html">Reviews</a></li>
 				<li class="header__menu-item"><a href="#">Blog</a></li>
 			</ul>
+			<!-- Right side items -->
 			<div class="header__options-on-right">
 				<div class="header__search-icon">
 					<img src="/assets/search-1.png" alt="search button">
 				</div>
 				<div class="header__my-account">
-					<img src="/assets/account-2.png" alt="My Account"></a>
+					<img src="/assets/account-2.png" alt="My Account">
 				</div>
 				<div class="header__cart">
 					<img src="/assets/cart-3.png" alt="My Cart">
 				</div>
 			</div>
+			<!-- Search box -->
 			<div class="header__search-box">
 				<input type="text" placeholder="Search here">
 			</div>
 		</nav>
 	</header>
-	<!-- 	Nav-bar END -->
 
+	<!-- Hero section -->
 	<section class="hero">
 		<h1 class="hero__title">Welcome to Brew Heaven!</h1>
 		<p class="hero__subtitle">Shop our best-selling coffee blends today</p>
-		<a href="#" class="hero__button">Shop Now</a>
+		<a href="pages/account.html" class="hero__button">Login</a>
 	</section>
 
-	<footer>
-
+	<!-- Footer Section -->
+	<footer class="footer">
+		<div class="footer__content">
+			<p class="footer__copyright">Copyright &copy; 2023 Coffee Shop
+				| All Rights Reserved</p>
+		</div>
 	</footer>
 
-
-	<!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-
+	<!-- Search box script -->
 	<script type="text/javascript" src="/script/search-box.js"></script>
 
+	<!-- Repl.it badge script -->
 	<script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
 
 </body>

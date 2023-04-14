@@ -1,35 +1,81 @@
 body {
 			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
-			
+			margin: 0px;
+			padding: 0px;
+			background-color: #e5cdbd;
+      color: black;
+      background-image: url("/assets/bg-contact.jpg");
 		}
 
+
+main{
+ 
+  margin-top: 19px;
+  padding: 16px;
+}
+        
+input[type=text], select, textarea {
+  align-items: center;
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical /* Allow the user to vertically resize the textarea */
+  font-family: Cinzel;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 13px 20px;
+  border-style: dotted solid double 
+      solid;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #04AA6D;
+  color: #00ffe1;
+  font-weight: bolder;
+  border-color: #0906db;
+  
+}
+
+/* Add a background color and some padding around the form */
 .container {
-			max-width: 1200px;
-			margin: 0 auto;
-			padding: 20px;
-
-		}
-
-
-main {
-  position: relative;
-  height: 100vh; /* set the height to the full viewport height */
+  border-radius: 14px;
+  background-color: #eceef4;
+  padding: 9px;
+  margin: 223px 285px 145px 285px;
+  align-content: center;
+  box-shadow: #b8adad 8px 8px;
+  width: 60%;
+ 
+  align-self: center;
 }
 
-main img {
-  position: absolute;
-  top: 15%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* use object-fit to scale the image to cover the entire element */
-  z-index: -1;
-  opacity: 0.95;
+.container h2{
+  text-align: center;
+  color: brown;
+  font-size: 52px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+background-color: #c6906c;
+  border-radius: 5px;
+  
 }
-
-main section {
-  position:relative;
-  z-index: 1; /* set the z-index to a positive value to bring the text forward */
+form{
+  font-family: Cinzel;
+  font-size: 18px;
+  font-weight: bold;
+  padding:16px 40px 40px 40px;
+  background-color: #e5cdbd;
+  border-radius: 7px;
 }

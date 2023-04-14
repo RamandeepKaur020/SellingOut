@@ -1,0 +1,125 @@
+main{
+  padding: 22px;
+  margin-top:100px;
+  align-content: center;
+  background-image: url('/assets/1\ \(1\).jpeg') ;
+}
+.product-image{
+  width:80%;
+  
+}
+.container{
+  align-content: center;
+  padding:0px 300px 0px 300px;
+}
+.card-body text-center{
+  box-shadow: 2px solid black;
+  padding: 9px;
+  
+}
+h2{
+  text-align: center;
+  width:100%;
+  padding:7px;
+  margin-bottom: 9px;
+   font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  color:floralwhite;
+}
+
+#page-top {
+  background-color: #f9cdcd;
+}
+
+.section-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.card-body {
+  background-color: #f0f9ff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 37px;
+  padding: 18px;
+  text-align: center;
+  width: 90%;
+}
+
+.card-body:hover{
+  background-color: whitesmoke;
+}
+.card-body:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(2px);
+  width:92%;
+  height:100%;
+}
+.card-body:hover .product-image {
+  transform: scale(1.0);
+  border-radius: 100px;
+
+}
+.card-body:hover .button-text {
+  background-color: #2ecc71;
+  border-color: #2ecc71;
+  margin:3px;
+  padding:9px;
+}
+.product-image {
+  max-width: 100%;
+}
+
+.card-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.card-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.tags {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0d6efd;
+  margin-bottom: 10px;
+}
+
+.button-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.button-text {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: #28a745;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-text:hover {
+  background-color: #218838;
+}
